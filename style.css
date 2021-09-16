@@ -1,16 +1,18 @@
 .board{
-    width: 500px;
-    height: 500px;
+    width: 80vh;
+    height: 80vh;
     background-color: rgb(39, 26, 7);
+    margin: auto;
+    margin-top:20px;
 }
 
 .row{
     width: 100%;
-    background-color:burlywood;
     border: solid 1px black;
 }
  .square{
      display:inline-block;
      height:100%;
+     background-color:burlywood;
      border:solid 1px black;
  }
